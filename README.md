@@ -2,9 +2,14 @@
 
 ## Overview: 
 The purpose of this project was to design an app that would allow the beta tester to identify potential travel destinations, hotels, and travel routes based off of their weather preferences. 
-Project Folders: [Weather_DataBase](https://github.com/Lan-kdl/World_Weather_Analysis/tree/main/Challenge/Weather_Database) [Vacation_Search](https://github.com/Lan-kdl/World_Weather_Analysis/tree/main/Challenge/Vacation_Search) [Vacation_Itinerary](https://github.com/Lan-kdl/World_Weather_Analysis/tree/main/Challenge/Vacation_Itinerary)
 
-Python: [Weather_DataBase](https://github.com/Lan-kdl/World_Weather_Analysis/blob/main/Challenge/Weather_Database/Weather_Database.ipynb) [Vacation_Search](https://github.com/Lan-kdl/World_Weather_Analysis/blob/main/Challenge/Vacation_Search/Vacation_Search.ipynb) [Vacation_Itinerary](https://github.com/Lan-kdl/World_Weather_Analysis/blob/main/Challenge/Vacation_Itinerary/Vacation_Itinerary.ipynb)
+Project Folders: [Weather_DataBase](https://github.com/Lan-kdl/World_Weather_Analysis/tree/main/Challenge/Weather_Database) 
+[Vacation_Search](https://github.com/Lan-kdl/World_Weather_Analysis/tree/main/Challenge/Vacation_Search) 
+[Vacation_Itinerary](https://github.com/Lan-kdl/World_Weather_Analysis/tree/main/Challenge/Vacation_Itinerary)
+
+Python: [Weather_DataBase](https://github.com/Lan-kdl/World_Weather_Analysis/blob/main/Challenge/Weather_Database/Weather_Database.ipynb) 
+[Vacation_Search](https://github.com/Lan-kdl/World_Weather_Analysis/blob/main/Challenge/Vacation_Search/Vacation_Search.ipynb) 
+[Vacation_Itinerary](https://github.com/Lan-kdl/World_Weather_Analysis/blob/main/Challenge/Vacation_Itinerary/Vacation_Itinerary.ipynb)
 
 ## Project Steps 
 First, I generated a list of 2000 random longitudes and latitudes which I then assigned to 735 of the nearest cities. From there, using openweathermap, I collected the information for each city pertaining to temperature, humidity, cloudiness, wind speed, weather description, and country. I compiled this information into a dataframe which was then exported as a [csv file](https://github.com/Lan-kdl/World_Weather_Analysis/blob/main/Challenge/Weather_Database/Weather_Database/WeatherPy_Database.csv). 
